@@ -3,15 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Runtime;
+
 
 namespace Task01
 {
-    class Line : Figure 
+    class Program
     {
-        new public void Draw()
+        static void Main(string[] args)
         {
-            Console.WriteLine("Line");
-        }
-
     }
 }

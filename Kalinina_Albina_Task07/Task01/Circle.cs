@@ -8,8 +8,8 @@ namespace Task01
 {
     class Circle : Round
     {
-       
-        public override void Draw()
+
+        new public void Draw()
         {
             Console.WriteLine("Circle");
         }

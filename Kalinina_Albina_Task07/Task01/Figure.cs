@@ -13,8 +13,9 @@ namespace Task01
 
         public void Draw()
         {
+          
         }
-        abstract public void Show();
+       
 
    
           

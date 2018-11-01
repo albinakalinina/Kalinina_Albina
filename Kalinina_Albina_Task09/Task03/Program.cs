@@ -4,14 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task01
+namespace Task03
 {
-    class Line : Figure 
+    class Program
     {
-        new public void Draw()
+        static void Main(string[] args)
         {
-            Console.WriteLine("Line");
         }
-
     }
 }

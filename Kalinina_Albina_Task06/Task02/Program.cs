@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task01
+namespace Task02
 {
-    class Line : Figure 
+    class Program
     {
-        new public void Draw()
+        static void Main(string[] args)
         {
-            Console.WriteLine("Line");
+            Ring r = new Ring(1,2,3,4,5,6);
         }
 
     }
